@@ -6,5 +6,8 @@
   - https://python-modernize.readthedocs.io/en/latest/
   - https://pypi.org/project/modernize/
 - Usage:
-  - python-modernize -w example.py
-  - 参数解释， -w 是write的意思
+  - 安装
+    - pip install modernize
+  - 使用
+    - python-modernize -w example.py
+    - 参数解释， -w, --write Write back modified files
