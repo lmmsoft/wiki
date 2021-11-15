@@ -22,10 +22,24 @@ if six.PY2:
 ```
 
 -  ModuleNotFoundError: No module named 'commands'
+  -  https://docs.python.org/3.3/library/subprocess.html#legacy-shell-invocation-functions
 ```
+import six
 if six.PY2:
     import commands as subprocess
 elif six.PY3:
     import subprocess
+
+# in code
+commands.getstatusoutput change to subprocess.getstatusoutput
+```
+
+- TypeError: '<' not supported between instances of 'dict' and 'dict'
+  - python3 不再支持dict的排序，原因和解法可以看这个: 
+  - https://stackoverflow.com/questions/22333388/dicts-are-not-orderable-in-python-3
+```
+>>> dicts = [{'a':'a'},{'b':'b'}]
+>>> sorted(dicts, key=lambda x:sorted(x.keys()))
+[{'a': 'a'}, {'b': 'b'}]
 ```
 
