@@ -11,3 +11,21 @@
   - 使用
     - python-modernize -w example.py
     - 参数解释， -w, --write Write back modified files
+
+
+## 特殊写法（python-modernize无法自动转换）
+- reload(sys)
+```
+if six.PY2:
+    reload(sys)
+    sys.setdefaultencoding('utf-8')
+```
+
+-  ModuleNotFoundError: No module named 'commands'
+```
+if six.PY2:
+    import commands as subprocess
+elif six.PY3:
+    import subprocess
+```
+
