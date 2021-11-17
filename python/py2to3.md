@@ -39,7 +39,7 @@ commands.getstatusoutput change to subprocess.getstatusoutput
   - https://stackoverflow.com/questions/22333388/dicts-are-not-orderable-in-python-3
 ```
 >>> dicts = [{'a':'a'},{'b':'b'}]
->>> sorted(dicts, key=lambda x:sorted(x.keys()))
+>>> sorted(dicts, key=lambda d: json.dumps(d, sort_keys=True))
 [{'a': 'a'}, {'b': 'b'}]
 ```
 
