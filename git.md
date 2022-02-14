@@ -2,10 +2,13 @@
 
 ## Android 发布自动版本号方案 （ gradle + git ）/ git rev-list HEAD/git describe --tags
 
+### 参考文章
 - https://blog.csdn.net/sinat_31057219/article/details/117562178
-- 参考命令
+- https://blog.csdn.net/weixin_34062329/article/details/92064079
 
-···
+### 参考命令
+
+```
 # 获取当前分支的提交总次数：
 > git rev-list HEAD --count
 1042
@@ -21,4 +24,4 @@ v1.9.0-4-gcc450c1de
 # 4 : 打tag之后又有四次提交
 # gcc450c1de ：开头 g 为git的缩写，在多种管理工具并存的环境中很有用处
 # cc450c1de ： 当前分支最新的commitID前几位
-···
+```
