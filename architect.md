@@ -22,3 +22,7 @@
   - 自定义注解+拦截器+Redis实现限流 (单体和分布式均适用，全局限流)
 - 接入层限流
   - nginx 限流，采用漏桶算法
+
+## 分布式
+- coolshell 分布式系统的事务处理
+  - https://coolshell.cn/articles/10910.html
