@@ -1,5 +1,8 @@
 # 架构方面的笔记
 
+## 
+- github 系统设计汇总 https://github.com/donnemartin/system-design-primer
+
 ## 限流算法
 - 参考文章《高并发之API接口限流》 https://blog.csdn.net/zrg523/article/details/82185088
   - 缓存 缓存的目的是提升系统访问速度和增大系统处理容量
