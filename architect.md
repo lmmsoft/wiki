@@ -1,7 +1,10 @@
 # 架构方面的笔记
 
-## 
-- github 系统设计汇总 https://github.com/donnemartin/system-design-primer
+## github 系统设计汇总
+- https://github.com/donnemartin/system-design-primer
+
+## 微软的云计算设计模式
+- https://docs.microsoft.com/en-us/azure/architecture/patterns/
 
 ## 限流算法
 - 参考文章《高并发之API接口限流》 https://blog.csdn.net/zrg523/article/details/82185088
