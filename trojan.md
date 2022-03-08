@@ -14,8 +14,10 @@
 > 0 19 * * * systemctl stop trojan-web; "/root/.acme.sh"/acme.sh --cron --home "/root/.acme.sh" > /dev/null; systemctl start trojan-web
 
 - 但是有时候 定时任务会出问题，需要手动申请证书
-> systemctl stop trojan-web
-> acme.sh --renew-all --force
-> systemctl start trojan-web
+```
+systemctl stop trojan-web
+acme.sh --renew-all --force
+systemctl start trojan-web
+```
 
 - 2022-03-08 上面重启了还不行，然后重启容器就好了
