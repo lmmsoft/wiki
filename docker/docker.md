@@ -1,5 +1,12 @@
 # docker 相关的笔记
 
+## 阿里云镜像仓库
+- 我的地址
+> https://23odl9yf.mirror.aliyuncs.com
+- 查询地址
+> https://cr.console.aliyun.com/cn-zhangjiakou/instances/mirrors
+- 使用方法
+![aliyun_image.png](aliyun_image.png)
 
 ## 查看docker容器的内存占用
 - https://www.cnblogs.com/duanxz/p/10247481.html
@@ -22,3 +29,6 @@ TIME+：该进程启动后占用的总的CPU时间，即占用CPU使用时间的
 COMMAND：进程启动命令名称
 ```
     - ps -e -o 'pid,comm,args,pcpu,rsz,vsz,stime,user,uid' | grep [pid]   其中rsz为实际内存    
+
+# 查看镜像每一层
+docker history xxx
