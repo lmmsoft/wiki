@@ -1,5 +1,20 @@
 # git 相关wiki
 
+## 解决 git status 显示中文文件名为乱码
+> git config --global core.quotepath false
+
+## 删除远程分支
+> git push origin :branch-name
+
+# 设置用户名
+
+```shell
+git config --global user.name "name"
+git config --global user.email "a@b.com"
+
+git config --local user.name "name"
+git config --local user.email "a@b.com"
+```
 ## Android 发布自动版本号方案 （ gradle + git ）/ git rev-list HEAD/git describe --tags
 
 ### 参考文章
