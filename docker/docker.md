@@ -7,6 +7,11 @@
 > https://cr.console.aliyun.com/cn-zhangjiakou/instances/mirrors
 - 使用方法
 ![aliyun_image.png](aliyun_image.png)
+- 案例: https://23odl9yf.mirror.aliyuncs.com加到"registry-mirrors"
+```
+  "registry-mirrors": ["https://23odl9yf.mirror.aliyuncs.com"],
+```
+
 
 ## 查看docker容器的内存占用
 - https://www.cnblogs.com/duanxz/p/10247481.html
