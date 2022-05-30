@@ -46,3 +46,26 @@ pyenv global <version> -- select globally for your user account
 
 pyenv global 3.10.4
 ```
+
+# pyenv-virtualenv
+- 官方文档 
+- mac安装
+```
+brew install pyenv-virtualenv
+```
+
+- After installation, you'll still need to do Pyenv shell setup steps then add
+```
+eval "$(pyenv virtualenv-init -)"
+```
+
+- 使用
+```
+Create virtualenv from current version
+$ pyenv version
+3.4.3 (set by /home/yyuu/.pyenv/version)
+$ pyenv virtualenv venv34
+
+pyenv activate <name>
+pyenv deactivate
+```
