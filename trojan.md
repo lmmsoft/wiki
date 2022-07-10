@@ -15,9 +15,15 @@
 
 - 但是有时候 定时任务会出问题，需要手动申请证书
 ```
+# 先进入容器
+docker exec -it trojan
+
+# 再申请证书
 systemctl stop trojan-web
 acme.sh --renew-all --force
 systemctl start trojan-web
-```
 
-- 2022-03-08 上面重启了还不行，然后重启容器就好了
+# 最后退出，并重启容器(2022-03-08 上面重启了还不行，然后重启容器就好了)
+exit
+docker restart trojan
+```
