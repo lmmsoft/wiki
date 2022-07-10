@@ -16,7 +16,7 @@
 - 但是有时候 定时任务会出问题，需要手动申请证书
 ```
 # 先进入容器
-docker exec -it trojan
+docker exec -it trojan bash
 
 # 再申请证书
 systemctl stop trojan-web
