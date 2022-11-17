@@ -1,10 +1,18 @@
-# git 相关wiki
+# 本文档记录 git 相关的常见操作命令
 
-## 解决 git status 显示中文文件名为乱码
+
+# 解决 git status 显示中文文件名为乱码
 > git config --global core.quotepath false
 
-## 删除远程分支
+# 删除远程分支
 > git push origin :branch-name
+
+# 查看用户名
+```shell
+git config user.email
+git config --global user.email
+git config --local user.email
+```
 
 # 设置用户名
 
@@ -15,13 +23,23 @@ git config --global user.email "a@b.com"
 git config --local user.name "name"
 git config --local user.email "a@b.com"
 ```
-## Android 发布自动版本号方案 （ gradle + git ）/ git rev-list HEAD/git describe --tags
 
-### 参考文章
+# 不同目录设置不同用户名
+- 查看根目录是否有 .gitconfig 文件，没有创建一个
+> ls -a ~/
+> cat ~/.gitconfig
+
+
+## 参考文章
+- https://www.freecodecamp.org/news/how-to-handle-multiple-git-configurations-in-one-machine/
+
+# Android 发布自动版本号方案 （ gradle + git ）/ git rev-list HEAD/git describe --tags
+
+## 参考文章
 - https://blog.csdn.net/sinat_31057219/article/details/117562178
 - https://blog.csdn.net/weixin_34062329/article/details/92064079
 
-### 参考命令
+## 参考命令
 
 ```
 # 获取当前分支的提交总次数：
