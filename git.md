@@ -26,7 +26,9 @@ git config --local user.email "a@b.com"
 
 # 不同目录设置不同用户名
 - 查看根目录是否有 .gitconfig 文件，没有创建一个
+
 > ls -a ~/
+
 > cat ~/.gitconfig
 
 
