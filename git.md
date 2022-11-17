@@ -27,9 +27,31 @@ git config --local user.email "a@b.com"
 # 不同目录设置不同用户名
 - 查看根目录是否有 .gitconfig 文件，没有创建一个
 
-> ls -a ~/
+```shell
+ls -a ~/
+cat ~/.gitconfig
+```
 
-> cat ~/.gitconfig
+- Since git 2.13, it is possible to solve this using newly introduced Conditional includes.
+
+An example:
+
+Global config ~/.gitconfig
+```
+[user]
+    name = John Doe
+    email = john@doe.tld
+
+[includeIf "gitdir:~/work/"]
+    path = ~/work/.gitconfig
+```
+
+Work specific config ~/work/.gitconfig
+```
+[user]
+    email = john.doe@company.tld
+```
+Remember that [includeIf...] should follows default [user] at the top.
 
 
 ## 参考文章
