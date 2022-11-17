@@ -33,10 +33,8 @@ cat ~/.gitconfig
 ```
 
 - Since git 2.13, it is possible to solve this using newly introduced Conditional includes.
-
-An example:
-
-Global config ~/.gitconfig
+- An example:
+- Global config ~/.gitconfig
 ```
 [user]
     name = John Doe
@@ -46,12 +44,13 @@ Global config ~/.gitconfig
     path = ~/work/.gitconfig
 ```
 
-Work specific config ~/work/.gitconfig
+- Work specific config ~/work/.gitconfig
 ```
 [user]
+    name = Work Name
     email = john.doe@company.tld
 ```
-Remember that [includeIf...] should follows default [user] at the top.
+- Remember that [includeIf...] should follows default [user] at the top.
 
 
 ## 参考文章
