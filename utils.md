@@ -43,3 +43,11 @@ SUM:                             7             69             25          15006
 ```
 
 - 参考 https://zhuanlan.zhihu.com/p/492841214
+
+## 更多代码行数工具
+- https://zhuanlan.zhihu.com/p/259663572
+- Statistic IDEA 插件
+- cloc
+- 依赖 git 仓库的 gitstats, 有很详细的各种维度的统计图表📈，很牛逼
+- 杠精工具之 find 命令
+> find . -name "*.java" -or -name "*.xml" -print | xargs wc -l
