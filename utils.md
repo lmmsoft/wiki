@@ -50,4 +50,6 @@ SUM:                             7             69             25          15006
 - cloc
 - 依赖 git 仓库的 gitstats, 有很详细的各种维度的统计图表📈，很牛逼
 - 杠精工具之 find 命令
-> find . -name "*.java" -or -name "*.xml" -print | xargs wc -l
+```
+find . -name "*.java" -or -name "*.xml" -print | xargs wc -l
+```
