@@ -24,6 +24,7 @@
 - https://blog.csdn.net/Melod_bc/article/details/53414900
 
 ## 另一篇讲好处的文章
+- https://blog.csdn.net/xiao2shiqi/article/details/97368779
 - https://www.zhihu.com/question/470828417/answer/1987550231
 1. Spring框架为我们做了什么，没有Spring框架前我们的程序是什么样的？
 1. 为什么要把对象放在Spring容器里面，为什么我不能直接new对象？
