@@ -4,7 +4,9 @@
 让使用者只关心核心业务的开发，框架帮你屏蔽原有技术跟业务开发无关的各类技术问题
 
 ## 演进
-JAVA从业经验中，经历了SSH，SSM，SpringMVC＋M，Spring boot和Spring cloud，等等框架，核心都是Spring，都离不开spring！
+- JAVA从业经验中，经历了SSH，SSM，SpringMVC＋M，Spring boot和Spring cloud，等等框架，核心都是Spring，都离不开spring！
+- servlet: 根据 request自己处理返回response，很多基础的工作需要自己做
+- SpringMVC 做了很多封装，基于IOC AOP(控制反转, 依赖注入)
 
 ## 好处
 - spring设计伊始就是为了解决对象的创建和管理！后来功能愈发的完善，变成了垄断性的框架！
@@ -19,3 +21,4 @@ JAVA从业经验中，经历了SSH，SSM，SpringMVC＋M，Spring boot和Spring 
 8. 提供大量诸如beanUtils，qstringUtils等优秀工具类！
 
 - 但是spring 4之前，用spring开发web配置过于繁杂，笨重！让程序员不用专注于业务代码开发，spring boot ，spring cloud由此诞生，将spring再次推向辉煌神坛！
+- https://blog.csdn.net/Melod_bc/article/details/53414900
