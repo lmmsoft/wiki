@@ -1,6 +1,8 @@
 # 放置spring相关的学习笔记
 
 # 为什么要用 Spring
+让使用者只关心核心业务的开发，框架帮你屏蔽原有技术跟业务开发无关的各类技术问题
+
 ## 演进
 JAVA从业经验中，经历了SSH，SSM，SpringMVC＋M，Spring boot和Spring cloud，等等框架，核心都是Spring，都离不开spring！
 
