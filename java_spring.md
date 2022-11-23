@@ -22,3 +22,10 @@
 
 - 但是spring 4之前，用spring开发web配置过于繁杂，笨重！让程序员不用专注于业务代码开发，spring boot ，spring cloud由此诞生，将spring再次推向辉煌神坛！
 - https://blog.csdn.net/Melod_bc/article/details/53414900
+
+## 另一篇讲好处的文章
+- https://www.zhihu.com/question/470828417/answer/1987550231
+1. Spring框架为我们做了什么，没有Spring框架前我们的程序是什么样的？
+1. 为什么要把对象放在Spring容器里面，为什么我不能直接new对象？
+1. 为什么要把Sevlet交给Spring MVC管理，我自己写Sevlet处理HTTP请求不行吗？
+1. Spring为什么要封装这么多的 Template（JDBCTemplate，RestTemplate等……）它想要干什么？
