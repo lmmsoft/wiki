@@ -1,5 +1,13 @@
 # Android Related Materials
 
+# Tinker: 安卓热补丁方案
+- https://github.com/Tencent/tinker
+- https://github.com/Tencent/tinker/wiki
+- 官方技术分享
+  - https://github.com/WeMobileDev/article/blob/master/Tinker%EF%BC%9A%E6%8A%80%E6%9C%AF%E7%9A%84%E5%88%9D%E5%BF%83%E4%B8%8E%E5%9D%9A%E6%8C%81.md
+  - https://mp.weixin.qq.com/s?__biz=MzAwNDY1ODY2OQ==&mid=2649286384&idx=1&sn=f1aff31d6a567674759be476bcd12549&scene=4#wechat_redirect
+
+
 # Run Linux on Android
 - AidLux 带UI的
   - https://github.com/aidlearning/AidLearning-FrameWork
