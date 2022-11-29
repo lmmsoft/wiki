@@ -50,4 +50,8 @@
   - Android 7.1.2(2018.10.1)
   - 3G/32G
   - 8Core 1.4GHz
+
+# 小知识
+- tinker: 微信开源的Android热修复框架
+- ART（Android Runtime）是Android在4.4版本中引入的新虚拟机环境，在5.0版本正式取代了Dalvik VM
   
