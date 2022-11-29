@@ -4,14 +4,16 @@
 - AidLux 带UI的
   - https://github.com/aidlearning/AidLearning-FrameWork
   - with GUI
-  - 华人项目，国内应用商店可下载，中午文档 https://docs.aidlux.com/#/
+  - 华人项目，国内应用商店可下载
+  - 中文文档 https://docs.aidlux.com/#/
 - Termux 终端仿真
   - https://github.com/termux/termux-app  17k star
-  - 生态最好 https://github.com/termux/termux-packages
+  - 生态最好 https://github.com/termux/termux-packages 完美支持 Python、 PHP、 Ruby、 Nodejs、 MySQL等
+  - 中文文档 https://termux.dev/cn/index.html (非常烂，感觉是机翻的)
   - 清华/中科大有源，可以半可视化配置 https://mirrors.tuna.tsinghua.edu.cn/help/termux/
   - 2020年之后，Android >= 7，放弃5和6了
   - 蓝牙键盘，快捷键，ssh等等
-  - 不需要root
+  - 不需要root(于是也不能用1024以内的端口，有一定限制)
 - UserLAnd
   - https://github.com/CypherpunkArmory/UserLAnd
   - 上次是21-10发布Release，有一年多了
