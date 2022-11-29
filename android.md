@@ -16,7 +16,7 @@
   - 清华/中科大有源，可以半可视化配置 https://mirrors.tuna.tsinghua.edu.cn/help/termux/
   - 2020年之后，Android >= 7，放弃5和6了
   - 蓝牙键盘，快捷键，ssh等等
-  - 不需要root(于是也不能用1024以内的端口，有一定限制)
+  - 不需要root(于是也不能用1024以内的端口，有一定限制)，兼容性好
   - 参考文档
     - 详细 https://www.freebuf.com/geek/170510.html
     - https://zhuanlan.zhihu.com/p/32338964
@@ -28,6 +28,7 @@
 - Linux Deploy
   - https://github.com/meefik/linuxdeploy
   - 上次发布，2020-02
+  - 需要先root
 
 # My Device
 - Huawei P20
