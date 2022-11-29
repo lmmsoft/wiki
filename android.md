@@ -18,6 +18,7 @@
   - https://github.com/CypherpunkArmory/UserLAnd
   - 上次是21-10发布Release，有一年多了
   - 可以下载不同的源，但是要翻墙！
+  - 不需要 root，需要翻墙！
 - Linux Deploy
   - https://github.com/meefik/linuxdeploy
   - 上次发布，2020-02
