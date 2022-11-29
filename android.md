@@ -14,6 +14,9 @@
   - 2020年之后，Android >= 7，放弃5和6了
   - 蓝牙键盘，快捷键，ssh等等
   - 不需要root(于是也不能用1024以内的端口，有一定限制)
+  - 参考文档
+    - 详细 https://www.freebuf.com/geek/170510.html
+    - https://zhuanlan.zhihu.com/p/32338964
 - UserLAnd
   - https://github.com/CypherpunkArmory/UserLAnd
   - 上次是21-10发布Release，有一年多了
