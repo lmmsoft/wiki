@@ -6,6 +6,9 @@
   - with GUI
   - 华人项目，国内应用商店可下载
   - 中文文档 https://docs.aidlux.com/#/
+  - 使用问题：
+    - 兼容性较差
+    - 鸿蒙3系统不支持，32位机器不支持，nexus6是32位，用不了
 - Termux 终端仿真
   - https://github.com/termux/termux-app  17k star
   - 生态最好 https://github.com/termux/termux-packages 完美支持 Python、 PHP、 Ruby、 Nodejs、 MySQL等
