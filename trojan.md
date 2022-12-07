@@ -27,3 +27,6 @@ systemctl start trojan-web
 exit
 docker restart trojan
 ```
+
+- 有时候 acme.sh --renew-all --force 重新生成证书失败，仔细看日志，是acme.sh 自己启动的80端口验证服务失败，应该是 trojan web服务没停止导致，可以用 kill 命令强制停止，注意会重新拉起，要不断反复停止
+- 生成证书，每小时只能失败5次，超过5次等1小时即可
