@@ -2,8 +2,10 @@
 
 # 反向代理设置
 - 控制面板 - 应用程序门户 -反向代理服务器 这里可以设置反向代理，比如
+  - 参考 https://post.smzdm.com/p/apvp3kl2/
   - xxx.i234.me:2999 代理到 192.168.1.90:3000 上 (可以转发到内网其他服务器)
-  - a.xxx.i234.me:2999 代理到  localhost:3000 上 (可以做二级域名)
+  - a.xxx.i234.me:2999 代理到 localhost:3000 上 (可以做二级域名)
+  - a.xxx.i234.me 代理到 localhost:3000 上 (这是80端口的二级域名，不成功是因为运营商屏蔽了80端口)
 - 上述可视化编辑，实际修改的是 /usr/syno/etc/www 目录下的 ReverseProxy.json 文件
 
 # 安装pip3
