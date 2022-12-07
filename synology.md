@@ -4,6 +4,7 @@
 - 控制面板 - 应用程序门户 -反向代理服务器 这里可以设置反向代理，比如
   - xxx.i234.me:2999 代理到 192.168.1.90:3000 上 (可以转发到内网其他服务器)
   - a.xxx.i234.me:2999 代理到  localhost:3000 上 (可以做二级域名)
+- 上述可视化编辑，实际修改的是 /usr/syno/etc/www 目录下的 ReverseProxy.json 文件
 
 # 安装pip3
 - https://blog.csdn.net/xiaokai1999/article/details/121070867
