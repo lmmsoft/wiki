@@ -3,8 +3,21 @@
 # 安装pip3
 - https://blog.csdn.net/xiaokai1999/article/details/121070867
 
-- 创建软链
+
 ```shell
+
+part1: 安装配置Python和pip
+
+在套件中心找到python3并且下载安装
+在控制面板->终端机和SNMP中启用SSH功能
+
+安装pip
+$ sudo su
+$ wget https://bootstrap.pypa.io/get-pip.py
+$ python3 get-pip.py
+
+
+part2: 创建软链
 
 全局查找pip
 
