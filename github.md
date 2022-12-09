@@ -23,5 +23,7 @@
     - https://github.com/yihong0618/gitblog/issues/209  
   - 利用 GitHubPoster 和 GitHub Actions 备份任意用户推特(这个项目里有大量的cron脚本，各种平台)
     - https://github.com/yihong0618/gitblog/issues/252
+  - 知乎回答，打通了 github + iPhone快捷
+    - https://www.zhihu.com/question/472267975/answer/2296132239
 - 飞书action
-  - https://github.com/xiachufang/actions-feishu/blob/main/action.yml  
+  - https://github.com/xiachufang/actions-feishu/blob/main/action.yml
