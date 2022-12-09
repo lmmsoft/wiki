@@ -1,4 +1,4 @@
-# githbu 相关的问题
+# gitbub 相关的问题
 
 ## http 无法 push 了
 - github 提高了安全级别，原有 http 的无法push了
