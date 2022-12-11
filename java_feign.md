@@ -11,3 +11,7 @@
 ## Why Feign? 
 - Feign 封装了 HTTP 请求调用的流程，而且会强制使用者去养成面向接口编程的习惯
 - ![image](https://user-images.githubusercontent.com/1109198/206890976-ab2e6319-0d7b-46c4-9d98-807587f07f7b.png)
+
+
+- 比较好的文章
+ - https://zhuanlan.zhihu.com/p/384451261
