@@ -41,5 +41,8 @@
 - https://github.com/liuwons/wxBot
   - 5.3k star
   - python2 网页版 六年没更新了 
+- https://github.com/wechaty/wechaty
+- https://github.com/wechaty/puppet-wechat
+  - wechaty 家族
 
 # Part5: 微信 telegram项目
