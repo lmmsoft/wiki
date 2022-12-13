@@ -36,6 +36,8 @@
   - 文档 https://itchat.readthedocs.io/zh/latest/#_16
 - https://github.com/why2lyj/ItChat-UOS
   - fork自上个项目的复刻版
+- https://gitee.com/lihaitao/ItChat/
+  - 据说上面的复刻版也不能用了，这个也是和复刻版本同样的技术，可惜了
 - https://github.com/liuwons/wxBot
   - 5.3k star
   - python2 网页版 六年没更新了 
