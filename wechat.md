@@ -47,6 +47,11 @@
 
 # Part5: 微信 telegram项目
 - Telegram bot <> EFB <> 微信网页版 <> 微信
+- 好处
+  - 直接数据上云
+  - 可以同时再多台手机、电脑、iPad上面登录TG
+  - 一个TG号上登录无数个微信，可以同时管理使用
+  - 定时发送
 
 ## 项目
 - https://github.com/ehForwarderBot/ehForwarderBot
