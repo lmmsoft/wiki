@@ -34,6 +34,8 @@
   - 27k star
   - python 需要能登陆网页版
   - 文档 https://itchat.readthedocs.io/zh/latest/#_16
+- https://github.com/why2lyj/ItChat-UOS
+  - fork自上个项目的复刻版
 - https://github.com/liuwons/wxBot
   - 5.3k star
   - python2 网页版 六年没更新了 
