@@ -24,6 +24,18 @@
 - wechatpy库
   - https://wechatpy.readthedocs.io/zh_CN/stable/quickstart.html 
 
+- https://github.com/littlecodersh/itchatmp
+  - itchat的兄弟库
+  - python
+  - 1.4k star 六年没更新 
+  
 # Part4: 微信聊天相关开发
+- https://github.com/littlecodersh/itchat
+  - 27k star
+  - python 需要能登陆网页版
+  - 文档 https://itchat.readthedocs.io/zh/latest/#_16
+- https://github.com/liuwons/wxBot
+  - 5.3k star
+  - python2 网页版 六年没更新了 
 
 # Part5: 微信 telegram项目
