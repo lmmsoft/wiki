@@ -58,6 +58,6 @@
   - https://ehforwarderbot.readthedocs.io/en/latest/
 ## 教学文章
 - https://jkboy.com/archives/5128.html
-- https://specialhua.top/20190910/cid=8.html
+- https://specialhua.top/20190910/cid=8.html (这篇不错，教你怎么的用docker搞的)
 - https://github.com/talkgo/night/issues/137
 - https://www.appinn.com/efb-tutorial-with-docker/
