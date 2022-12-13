@@ -47,5 +47,10 @@
 
 # Part5: 微信 telegram项目
 - Telegram bot <> EFB <> 微信网页版 <> 微信
+
+## 项目
+- https://github.com/ehForwarderBot/ehForwarderBot
+  - https://ehforwarderbot.readthedocs.io/en/latest/
+## 教学文章
 - https://github.com/talkgo/night/issues/137
 - https://www.appinn.com/efb-tutorial-with-docker/
