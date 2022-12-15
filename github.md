@@ -25,5 +25,7 @@
     - https://github.com/yihong0618/gitblog/issues/252
   - 知乎回答，打通了 github + iPhone快捷
     - https://www.zhihu.com/question/472267975/answer/2296132239
+  - 自动生成github about me 首页
+    - https://github.com/dejavudwh/dejavudwh
 - 飞书action
   - https://github.com/xiachufang/actions-feishu/blob/main/action.yml
