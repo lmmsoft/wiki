@@ -23,6 +23,11 @@
 - php 语言实现
 - 支持GReader和Fever协议，官方支持的第三方客户端对比，挺全的: https://github.com/FreshRSS/FreshRSS/tree/edge/Docker
 
+# 其他
+- 其他的还有很多，不同语言实现，star也不少，没精力摸索了
+- github 直接搜索 rss reader即可，star 1000 以上的挺多了
+- https://github.com/Athou/commafeed
+
 # 3. Client
 
 ## https://netnewswire.com/
