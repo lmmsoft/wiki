@@ -61,4 +61,4 @@ git commit -m "Action: `date +'%Y-%m-%d %H:%M %z %Z'`"
 
 /n(斜线)	那个n代表数字，即是每隔n单位间隔的意思，例如每五分钟进行一次，则：*/5 * * * * command用*与/5来搭配，也可以写成0-59/5，意思相同
 
-4. 想要有手动触发按钮，得加上 > on workflow_dispatch
+4. 想要有手动触发按钮，得加上 `on workflow_dispatch`
