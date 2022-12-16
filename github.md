@@ -16,6 +16,8 @@
 - 非常强大的工具，除了 cicd 的构建发布工具外，还可以跑cron定时脚本，脚本还能与 iPhone 的快捷打通，完成更多的自定义任务（比如关闭闹钟，比如关闭app等）
 - 官方教程
   - https://support.github.com/features/actions
+- 其他教程
+  - 介绍几个技巧，值得一看 https://zhuanlan.zhihu.com/p/348381477
 - action 市场，搜索现成的任务
   - sh
 - 各种好的idea
