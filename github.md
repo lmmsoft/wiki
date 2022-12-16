@@ -29,3 +29,11 @@
     - https://github.com/dejavudwh/dejavudwh
 - 飞书action
   - https://github.com/xiachufang/actions-feishu/blob/main/action.yml
+
+# github action 技巧
+1. 初次调试时，可以加上 push 就触发的功能，方便调试
+```
+on:
+  push:
+    branches: [ main ]
+```
