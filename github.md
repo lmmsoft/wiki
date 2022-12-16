@@ -46,5 +46,6 @@ git commit -m "Action: `date +'%Y-%m-%d %H:%M %z %Z'`"
 # 默认 date 可读性差一点： action: Thu Dec 15 06:31:18 UTC 2022
 ```
 3. crontab 格式
+
 ![image](https://user-images.githubusercontent.com/1109198/208071620-fc187be3-4b8d-43b0-ac94-7533875d76c6.png)
 
