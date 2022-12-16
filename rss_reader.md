@@ -37,3 +37,7 @@
 - 可以 iCloud 同步，也可以连接 inoreader 等第三方服务，还能和 FreshRSS 连接，不支持 tinytiny RSS
 - 用户体验还不错
 - 目前在用，主要数据 iCloud 同步中 
+
+
+# 4. 订阅源聚合
+- web3订阅源聚合，推荐用 netnewswire  https://github.com/chainfeeds/RSSAggregatorforWeb3
