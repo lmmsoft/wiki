@@ -37,3 +37,11 @@ on:
   push:
     branches: [ main ]
 ```
+
+1. 提交代码时，可以加上date格式化后的时间 %z %Z 是时区
+```
+git commit -m "Action: `date +'%Y-%m-%d %H:%M %z %Z'`"
+# Action: 2022-12-16 08:57 +0000 UTC
+
+# 默认 date 可读性差一点： action: Thu Dec 15 06:31:18 UTC 2022
+```
