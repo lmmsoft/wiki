@@ -29,6 +29,7 @@
     - https://www.zhihu.com/question/472267975/answer/2296132239
   - 自动生成github about me 首页
     - https://github.com/dejavudwh/dejavudwh
+    - https://www.zhihu.com/question/405195744/answer/1768480527
 - 飞书action
   - https://github.com/xiachufang/actions-feishu/blob/main/action.yml
 
