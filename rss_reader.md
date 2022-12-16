@@ -1,11 +1,11 @@
 # 本文记录 rss 阅读器相关的经验
 
-# 在线产品
+# 1. 在线产品
 
 ## [inoreader](http://inoreader.com/)
 - 用过 inoreader， UI 和 google reader 类似，功能也不错，问题：1. 现在需要翻墙 2. 开始收费，而且费用相对于中国互联网产品较高 3. 不收费限制订阅数量，我已经超了，无法再使用
 
-# self host
+# 2. Selfhost
 
 ## tiny tiny rss
 - https://tt-rss.org/
@@ -16,14 +16,19 @@
 - 使用体验比 inoreader 差一点，导致使用率比较低，后来VM到期，就没备份，直接再见了
 - 现在有 docker-compose 版本的，搭建成本低降低，暂不考虑用
 
-## 
+## FreshRSS
+- 官网 https://freshrss.org/
+- 开源 https://github.com/FreshRSS/FreshRSS
+- 官方docker image https://hub.docker.com/r/freshrss/freshrss/ https://github.com/FreshRSS/FreshRSS/tree/edge/Docker
+- php 语言实现
+- 支持GReader和Fever协议，官方支持的第三方客户端对比，挺全的: https://github.com/FreshRSS/FreshRSS/tree/edge/Docker
 
-# client
+# 3. Client
 
 ## https://netnewswire.com/
 - 开源 https://github.com/Ranchero-Software/NetNewsWire
 - Swift 语言实现
 - 适合苹果全家桶用户，mac, iPhone, iPad
-- 可以 iCloud 同步，也可以连接 inoreader 等第三方服务
+- 可以 iCloud 同步，也可以连接 inoreader 等第三方服务，还能和 FreshRSS 连接，不支持 tinytiny RSS
 - 用户体验还不错
 - 目前在用，主要数据 iCloud 同步中 
