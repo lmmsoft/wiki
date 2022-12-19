@@ -53,3 +53,19 @@ SUM:                             7             69             25          15006
 ```
 find . -name "*.java" -or -name "*.xml" -print | xargs wc -l
 ```
+
+# 统计markdown里有多少字的工具
+- https://github.com/spencerwooo/cwim
+用法
+1. 下载工具
+2. rename to cwim
+3. move to /usr/bin 失败，root用户也不行，于是移到 ~/目录
+4. 运行 ```lmm333@mingmingdeMacBook-Pro 晨间日记_backup % ~/cwim .```
+
+样例输出：
+```
+ 2022-08/22-08-04 周四 第100篇晨间日记.md                         | 72        | 45          | 727    | 2 mins
+ 话题集锦.md                                                      | 122       | 83          | 397    | 1 mins
+ SUM                                                              | 13685     | 8846        | 120301 | 481 mins
+------------------------------------------------------------------+-----------+-------------+--------+--------------
+```
