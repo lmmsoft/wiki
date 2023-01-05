@@ -1,5 +1,31 @@
 # Android Related Materials
 
+# gradle
+- gradle 执行流程
+  - https://hefuweill.github.io/2020/07/17/Gradle%20%E6%89%A7%E8%A1%8C%E6%B5%81%E7%A8%8B/
+- Android 构建打包流程
+  - https://hefuweill.github.io/2020/08/07/Android%20%E6%9E%84%E5%BB%BA%E6%89%93%E5%8C%85%E6%B5%81%E7%A8%8B/
+- gradle 相关知识
+
+查看应用程序模块下的 build.gradle 可以发现其应用了该插件。
+```
+plugins {
+    id 'com.android.application'
+}
+```
+那么该插件来自于哪呢？查看根项目 build.gradle 可以发现有如下配置。
+```
+buildscript {
+    repositories {
+        google()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:3.0.0'
+    }
+}
+```
+显然 com.android.application 插件来自 com.android.tools.build:gradle:3.0.0 库，而该库又来自 Google 的 maven 仓库。根据自定义插件流程翻看该库源码发现该插件对应的实现类为 AppPlugin。
+
 # Tinker: 安卓热补丁方案
 - https://github.com/Tencent/tinker
 - https://github.com/Tencent/tinker/wiki
