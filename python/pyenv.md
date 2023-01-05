@@ -48,7 +48,8 @@ pyenv global 3.10.4
 ```
 
 # pyenv-virtualenv
-- 官方文档 
+- 官方文档
+  - https://github.com/pyenv/pyenv-virtualenv
 - mac安装
 ```
 brew install pyenv-virtualenv
@@ -61,6 +62,9 @@ eval "$(pyenv virtualenv-init -)"
 
 - 使用
 ```
+# To create a virtualenv for the Python version used with pyenv, run pyenv virtualenv, specifying the Python version you want and the name of the virtualenv directory. For example,
+$ pyenv virtualenv 2.7.10 my-virtual-env-2.7.10
+
 Create virtualenv from current version
 $ pyenv version
 3.4.3 (set by /home/yyuu/.pyenv/version)
@@ -68,4 +72,7 @@ $ pyenv virtualenv venv34
 
 pyenv activate <name>
 pyenv deactivate
+
+# list all virtualenv
+$ pyenv virtualenvs
 ```
