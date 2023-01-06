@@ -32,7 +32,7 @@ For more information on Whois status codes, please visit https://icann.org/epp
 
 ```
 
-- 似乎 22-12-29 又被续费了一年，看来要不回来了。。。
+- 似乎 22-12-29 又万网被续费了一年，看来要不回来了。。。
 ```
 Domain Name: LMM333.COM
 Registry Domain ID: 1840612349_DOMAIN_COM-VRSN
