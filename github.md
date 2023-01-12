@@ -48,6 +48,7 @@ git commit -m "Action: `date +'%Y-%m-%d %H:%M %z %Z'`"
 
 # 默认 date 可读性差一点： action: Thu Dec 15 06:31:18 UTC 2022
 ```
+
 3. crontab 格式
 
 ![image](https://user-images.githubusercontent.com/1109198/208071620-fc187be3-4b8d-43b0-ac94-7533875d76c6.png)
@@ -63,3 +64,6 @@ git commit -m "Action: `date +'%Y-%m-%d %H:%M %z %Z'`"
 /n(斜线)	那个n代表数字，即是每隔n单位间隔的意思，例如每五分钟进行一次，则：*/5 * * * * command用*与/5来搭配，也可以写成0-59/5，意思相同
 
 4. 想要有手动触发按钮，得加上 `on workflow_dispatch`
+
+5. 本地运行github的项目
+- [act](https://github.com/nektos/act)
