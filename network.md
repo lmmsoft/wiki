@@ -21,6 +21,8 @@
 
 ## WebSocket
 ![image](https://user-images.githubusercontent.com/1109198/212642257-7dff57cc-d56f-4c8a-b689-f72508f3c11b.png)
+![image](https://user-images.githubusercontent.com/1109198/212642579-a9343857-a886-49e2-acbb-9f7df99ae68b.png)
+
 - （1）建立在 TCP 协议之上，服务器端的实现比较容易。
 - （2）与 HTTP 协议有着良好的兼容性。默认端口也是80和443，并且握手阶段采用 HTTP 协议，因此握手时不容易屏蔽，能通过各种 HTTP 代理服务器。
 - （3）数据格式比较轻量，性能开销小，通信高效。
