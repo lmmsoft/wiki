@@ -1,5 +1,13 @@
 # gitbub 相关的问题
 
+# github slice 方案
+- https://github.com/hakimel/reveal.js (markdown写slice, 自动部署到gith)
+  - https://revealjs.com/
+  - https://github.com/lmmsoft/slices
+  - https://lmmsoft.github.io/slices/
+- https://github.com/yhatt/marp-cli-example (用markdown写slice，并部署到github page/vercel)
+  - https://marp.app/
+
 # http 无法 push 了
 - github 提高了安全级别，原有 http 的无法push了
 - 两种方法
