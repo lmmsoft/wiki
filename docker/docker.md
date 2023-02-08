@@ -88,15 +88,15 @@ docker history xxx
 ## ubuntu 设置默认密码问题
 - 上面也会需要输入密码，或者进入root，都需要有密码
 - 新设密码 ```su root``` 然后输入两遍
-- 进入root ``su root```` 然后输入上面的密码
+- 进入root ```su root``` 然后输入上面的密码
 
 
 
 ##  docker启动/重启/关闭命令
-启动        systemctl start docker
+启动 ```systemctl start docker```
 
-守护进程重启   sudo systemctl daemon-reload
+守护进程重启```sudo systemctl daemon-reload```
 
-重启docker服务   systemctl restart  docker
+重启docker服务```systemctl restart  docker```
 
-重启docker服务  sudo service docker restart
+重启docker服务```sudo service docker restart```
