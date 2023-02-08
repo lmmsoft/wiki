@@ -91,3 +91,12 @@ docker history xxx
 - 进入root ``su root```` 然后输入上面的密码
 
 
+
+##  docker启动/重启/关闭命令
+启动        systemctl start docker
+
+守护进程重启   sudo systemctl daemon-reload
+
+重启docker服务   systemctl restart  docker
+
+重启docker服务  sudo service docker restart
