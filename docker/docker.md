@@ -87,7 +87,7 @@ docker history xxx
 
 ## ubuntu 设置默认密码问题
 - 上面也会需要输入密码，或者进入root，都需要有密码
-- 新设密码 ```su root``` 然后输入两遍
+- 新设密码 ```sudo passwd``` 然后输入两遍
 - 进入root ```su root``` 然后输入上面的密码
 
 
