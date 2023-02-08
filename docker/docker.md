@@ -84,3 +84,10 @@ docker history xxx
 >newgrp - docker
 
 注意:最后一步是必须的，否则因为 groups 命令获取到的是缓存的组信息，刚添加的组信息未能生效，所以 docker images 执行时同样有错。
+
+## ubuntu 设置默认密码问题
+- 上面也会需要输入密码，或者进入root，都需要有密码
+- 新设密码 ```su root``` 然后输入两遍
+- 进入root ``su root```` 然后输入上面的密码
+
+
