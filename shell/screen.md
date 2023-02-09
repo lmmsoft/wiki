@@ -24,6 +24,9 @@
 * 检查是否在screen里面
     * echo $STY
     * echo $TERM
+- 向上翻页
+   - 使用CTRL + A，然后使用Escape 或者 mac: **control + a，然后 [ ** 进入【复制模式】
+   - 进入”Copy mode”。之后，您应该能够使用箭头键移动光标。要退出，请再次按Escape。
 * https://www.ibm.com/developerworks/cn/linux/l-cn-screen/
 * http://pkuwwt.github.io/linux/2013-12-04-gnu-screen-an-introduction-and-beginners-tutorial/
     * GNU Screen--介绍和初学者指南[译]
