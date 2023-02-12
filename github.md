@@ -1,5 +1,19 @@
 # gitbub 相关的问题
 
+# github 流程图，架构图方案
+## mermaid
+- 项目代码 https://github.com/mermaid-js/mermaid
+- 项目主页 https://mermaid.js.org/
+- 中文文档 https://github.com/mermaid-js/mermaid/blob/develop/README.zh-CN.md
+- 官方博客 https://github.blog/2022-02-14-include-diagrams-markdown-files-mermaid/
+- 在线编辑 https://mermaid.live/edit
+
+## github其他方案（地图）
+- https://docs.github.com/zh/get-started/writing-on-github/working-with-advanced-formatting/creating-diagrams
+
+## github其他高级格式(表格，折叠，等等)
+- https://docs.github.com/zh/get-started/writing-on-github/working-with-advanced-formatting
+
 # github slice 方案
 - https://github.com/hakimel/reveal.js (markdown写slice, 自动部署到gith)
   - https://revealjs.com/
