@@ -1,7 +1,9 @@
 # 存放域名相关链接
 
 # lmm333.com
-- whois info in aliyun
+- whois info
+  - https://www.whois.com/whois/lmm333.com
+- aliyun info
   - https://whois.aliyun.com/domain/lmm333.com
 
 ```
