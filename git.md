@@ -4,6 +4,22 @@
 # 解决 git status 显示中文文件名为乱码
 > git config --global core.quotepath false
 
+如果运行上述命令弹出提示： 
+> error: could not lock config file /Users/lmm333/.gitconfig: File exists
+
+则可以手动编辑配置文件
+> vim /Users/lmm333/.gitconfig
+
+在 [core] 下增加 quotepath = false
+
+```
+[core]
+quotepath = false
+```
+
+原理：core.quotepath 设为 false 的话，就不会对 0x80 以上的字符进行quote, 故中文可以正常显示, 此时, 如果你查看 git 的配置文件, 就会发现在 [core] 的分类下多处一条 quotepath = false的选项.
+
+
 # 删除远程分支
 > git push origin :branch-name
 
