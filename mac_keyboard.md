@@ -32,7 +32,7 @@ TBD
 
 
 ### 改法二：适合习惯 mac 键盘键位的同学
-![image](https://user-images.githubusercontent.com/1109198/220905578-da21c5d4-6de0-4f61-b78d-19733be54d32.png)
+![image](https://user-images.githubusercontent.com/1109198/220905902-d0f6f3f7-9c16-4e10-86fe-c09996249413.png)
 
 映射成mac按键的位置，此时：
 ```
