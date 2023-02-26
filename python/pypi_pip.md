@@ -9,7 +9,9 @@
 
 The default is "only-if-needed". 
 
-Choosing the "eager" option forces installation of the newest available versions of the dependencies:
+Choosing the "eager" option forces installation of the newest available versions of the dependencies.
+
+Ref: https://pip.pypa.io/en/stable/development/architecture/upgrade-options/
 
 # 有趣的库
 
