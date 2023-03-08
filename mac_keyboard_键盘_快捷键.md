@@ -2,8 +2,9 @@
 
 ## Mac 快捷键
 
-Page UP/DOWN = Fn + 上/下
-Home/End = Fn + 左/右
+- Page UP/DOWN = Fn + 上/下
+- Home/End = Fn + 左/右
+- 删除/前删除 = Delete/Fn + Delete
 
 ## mac 电脑💻接windows键盘⌨️
 
