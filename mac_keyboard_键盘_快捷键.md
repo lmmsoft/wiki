@@ -1,5 +1,10 @@
 # 本文存放 mac 键盘相关的文档
 
+## Mac 快捷键
+
+Page UP/DOWN = Fn + 上/下
+Home/End = Fn + 左/右
+
 ## mac 电脑💻接windows键盘⌨️
 
 每次 mac 外界 windows 键盘之后都用得很不顺手，主要是因为默认的control/option/command键的顺序和 windows键盘上 control/win/alt键不一样，使用IDE编程的时候，快捷键用得不爽的话，对效率有很大影响
