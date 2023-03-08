@@ -51,4 +51,8 @@ TBD
 
 欢迎评论，你最习惯哪种方案？ 默认/win/mac？
 
+## 怎样统一 Windows 和 Mac 上的快捷键使用体验？
+- 知乎讨论，方案很多 https://www.zhihu.com/question/27564773
+  - 高赞回答 居然是建议不要乱映射，多背几套快捷键 
+
 - Mac官方文档： Mac 键盘上的 Windows 按键，映射 https://support.apple.com/zh-cn/guide/mac-help/cpmh0152/mac 
