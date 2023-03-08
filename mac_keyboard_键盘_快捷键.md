@@ -46,4 +46,4 @@ TBD
 
 欢迎评论，你最习惯哪种方案？ 默认/win/mac？
 
-- Mac官方文档： Mac 键盘上的 Windows 按键 https://support.apple.com/zh-cn/guide/mac-help/cpmh0152/mac
+- Mac官方文档： Mac 键盘上的 Windows 按键，映射 https://support.apple.com/zh-cn/guide/mac-help/cpmh0152/mac 
