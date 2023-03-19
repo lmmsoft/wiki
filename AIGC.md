@@ -8,3 +8,4 @@
 
 ## chatgpt prompt
 - 使用python写一段代码，遍历目录下的所有md文件，找到含有 ![]() 图片的行，如果图片url里包含flickr，则下载图片，用md文件名+自增id重命名，并把图片url换成本地的文件路径
+- 使用python写一段代码，遍历目录下的所有html文件，找到含有图片标签<img>的行，如果图片url里包含farm8.staticflickr.com域名下的图片，则下载图片，用文件名+自增id重命名，并把图片url换成本地的文件路径
