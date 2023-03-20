@@ -5,6 +5,7 @@
 - 高仿(无需token)：https://chat.pawan.krd/
 - 高仿(需要token): https://freegpt.cc/
 - 国产(需要token，不太敢用): http://www.gptjx.com/
+- 国产卖号网站 http://ifaka.icu/?code=YT0xJmI9Mw%3D%3D
 
 
 ## chatgpt prompt
