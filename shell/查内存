@@ -1,0 +1,17 @@
+# linux 机器
+
+```
+free -h
+
+              total        used        free      shared  buff/cache   available
+Mem:           912M        664M         58M        1.2M        190M        108M
+Swap:            0B          0B          0B
+
+
+free -m
+
+              total        used        free      shared  buff/cache   available
+Mem:            912         664          68           1         180         109
+Swap:             0           0           0
+
+```
