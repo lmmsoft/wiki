@@ -74,3 +74,8 @@ pip 22.3.1 from /var/packages/py3k/target/usr/local/lib/python3.8/site-packages/
   - ip:30006
 - Chrome是v55，很旧的版本了，现在已经到v110了
 
+## oldiy大神的 chrome浏览器
+- 容器 里搜 oldiy， 有很多好东西
+- 浏览器有火狐和Chrome，据说火狐更稳定
+- 用UI创建容器的教程：https://www.toutiao.com/article/7109476620066423336/
+- 大神原版的加密码教程：《给Docker镜像运行的chrome镜像添加访问密码》 https://odcn.top/2019/03/09/2902/
