@@ -72,5 +72,5 @@ pip 22.3.1 from /var/packages/py3k/target/usr/local/lib/python3.8/site-packages/
 ![image](https://user-images.githubusercontent.com/1109198/226795469-1219fc36-e3be-490f-bd2a-0174beba94c8.png)
 - 使用方法 默认LXQT使用的是NAS的30006端口，也可以到Docker的容器配置中查看
   - ip:30006
-
+- Chrome是v55，很旧的版本了，现在已经到v110了
 
