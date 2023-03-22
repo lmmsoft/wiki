@@ -77,5 +77,6 @@ pip 22.3.1 from /var/packages/py3k/target/usr/local/lib/python3.8/site-packages/
 ## oldiy大神的 chrome浏览器
 - 容器 里搜 oldiy， 有很多好东西
 - 浏览器有火狐和Chrome，据说火狐更稳定
+- chrome 是 v72, 飞书要求最低v58,lxqt太老了，不行
 - 用UI创建容器的教程：https://www.toutiao.com/article/7109476620066423336/
 - 大神原版的加密码教程：《给Docker镜像运行的chrome镜像添加访问密码》 https://odcn.top/2019/03/09/2902/
