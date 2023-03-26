@@ -61,3 +61,22 @@
 - https://specialhua.top/20190910/cid=8.html (这篇不错，教你怎么的用docker搞的)
 - https://github.com/talkgo/night/issues/137
 - https://www.appinn.com/efb-tutorial-with-docker/
+
+## Part6: 登陆网页版微信
+- 之前扫码网页登陆，总是提示：
+```
+<error>
+<ret>1203</ret>
+<message>由于安全原因，此微信号不能使用网页版微信。你可以使用 Windows 版微信或 Mac 版微信登录。Windows 版微信下载地址：https://pc.weixin.qq.com  Mac 版微信下载地址：https://mac.weixin.qq.com</message>
+</error>
+```
+
+- 通过以下方法尝试真的可以了
+
+微信扫码 https://filehelper.weixin.qq.com/ 随便传个文件
+
+然后再去登录 https://wx.qq.com/
+
+消息来自：https://hostloc.com/thread-946732-1-2.html
+
+马甲亲测真的可以！
