@@ -82,3 +82,5 @@
 消息来自：https://hostloc.com/thread-946732-1-2.html
 
 马甲亲测真的可以！
+
+参考Chrome(辅助登陆网页版微信) https://github.com/adamyi/wechrome
