@@ -75,7 +75,9 @@
 
 微信扫码 https://filehelper.weixin.qq.com/ 随便传个文件
 
-然后再去登录 https://wx.qq.com/
+然后再去登录 
+- https://wx.qq.com/
+- https://wx2.qq.com/
 
 消息来自：https://hostloc.com/thread-946732-1-2.html
 
