@@ -1,5 +1,7 @@
 # azure 相关知识
 
+- 免费服务清单 https://azure.microsoft.com/zh-cn/free/
+
 ## 免费 vm 注意事项
 
 ## 免费 mongodb 注意事项
@@ -18,4 +20,4 @@
     - 选择 用户开发项目或者爱好者项目 + 可突发(1-20 vCore) - 最适合不需要持续完全占用 CPU 的工作负载  
     - 有个更小的 B1s(1c 1g 400 IOPS)反而不是免费的
     - 默认20g, 可以提高到32G
-    - 免费的不是所有区域都有，比如 southeast asia 就不行
+    - 免费的不是所有区域都有，比如 southeast asia/japan west 就不行, hk/jp east 可以
