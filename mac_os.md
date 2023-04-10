@@ -17,5 +17,7 @@
   - 原生命令解决的原生的命令解决  https://www.zhihu.com/question/412132741/answer/1386080254
   - 免费的 Omi NTFS ， x86的mac可以直接用， M1/M2 的需要重启，进入恢复模式，给系统插件授权
   - 免费的 brew 安装方法 https://blog.csdn.net/qq_36071963/article/details/126052367
+  - 我有个旧的 paragon 版本太老，不支持 M1，新的要付费
+  - 国产的 xx，SEO 做的很好，但是要付费
 - 各种 win/mac 磁盘格式优劣对比
   - https://www.seagate.com/cn/zh/support/kb/how-to-format-your-hard-drive-220151en/?language=zh-cn
