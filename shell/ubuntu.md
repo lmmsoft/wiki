@@ -25,6 +25,7 @@ Asia/Shanghai
 
 # 修改
 > sudo timedatectl set-timezone America/New_York
+> sudo timedatectl set-timezone Asia/Shanghai
 
 # 验证
 > timedatectl
