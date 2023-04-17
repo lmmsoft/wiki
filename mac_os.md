@@ -1,5 +1,9 @@
 # 保存和 mac 系统相关的操作文档
 
+## Mac双屏显示时，如何把dock固定在主屏幕？
+- https://www.zhihu.com/question/25277698
+- 鼠标放在需要固定的显示器底部两秒 (亲测好用，Ventura v13.3.1, 但这个功能设计得太脑残了，之前dock程序坞乱飘，应该就是这个原因，我左下角有锁屏触发角，导致dock总是飘到左边屏幕上  ) 
+
 ## mac电脑访达finder如何按照照片的拍摄时间排序？
 - my blog post link:  https://lmmsoft.github.io/mac_finder_sort_photos_by_taken_time/ 
 - 结论，不行，必须通过第三方软件
