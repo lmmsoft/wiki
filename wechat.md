@@ -96,6 +96,9 @@
 - 开源工具 iOS + python
   - python 写的，搞二次开发方便
   - https://github.com/12425/wechat-exporter
+- 开源工具 iOS 备份
+  - 这里有介绍解密的原理
+  - https://github.com/allen1881996/WeChat-Data-Analysis
 - 开源工具 Android
   - 安卓数据是加密的，以前需要用IMEI解密，现在秘钥固定
   - https://github.com/ppwwyyxx/wechat-dump
