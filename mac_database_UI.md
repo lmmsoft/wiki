@@ -18,3 +18,4 @@
 - 最新版不支持 M1，亲测会闪退
 - The app works with Rosetta 2， Additional info: Last version doesn't work, only v8.0.21 works with rosetta 2 on M1 mac :
 - https://isapplesiliconready.com/app/MySQL%20Workbench
+- https://downloads.mysql.com/archives/get/p/8/file/mysql-workbench-community-8.0.21-macos-x86_64.dmg
