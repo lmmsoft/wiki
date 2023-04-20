@@ -84,3 +84,14 @@
 马甲亲测真的可以！
 
 参考Chrome(辅助登陆网页版微信) https://github.com/adamyi/wechrome
+
+## Part7: 导出微信聊天记录
+- 楼月工具
+  - 从安卓中导出，需要 root 手机，感觉是 hack 了手机里的数据，有点危险
+  - http://www.winwin7.com/soft/20482.html
+- 开源工具 
+  - https://github.com/BlueMatthew/WechatExporter
+  - 原理： icloud 备份，不加密，可以拿到手机原始数据，解析出来即可！
+- 其他工具
+  - 这个帖子里有较多付费工具的汇总
+  - https://github.com/BlueMatthew/WechatExporter/issues/120
