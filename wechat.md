@@ -89,9 +89,12 @@
 - 楼月工具
   - 从安卓中导出，需要 root 手机，感觉是 hack 了手机里的数据，有点危险
   - http://www.winwin7.com/soft/20482.html
-- 开源工具 
+- 开源工具 iOS
   - https://github.com/BlueMatthew/WechatExporter
   - 原理： icloud 备份，不加密，可以拿到手机原始数据，解析出来即可！
+- 开源工具 Android
+  - 安卓数据是加密的，以前需要用IMEI解密，现在秘钥固定
+  - https://github.com/ppwwyyxx/wechat-dump
 - 其他工具
   - 这个帖子里有较多付费工具的汇总
   - https://github.com/BlueMatthew/WechatExporter/issues/120
