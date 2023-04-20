@@ -98,3 +98,5 @@
 - 其他工具
   - 这个帖子里有较多付费工具的汇总
   - https://github.com/BlueMatthew/WechatExporter/issues/120
+- 知乎汇总贴，免费的，付费的，很全
+  - https://zhuanlan.zhihu.com/p/212901830
