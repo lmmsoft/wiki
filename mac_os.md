@@ -1,5 +1,12 @@
 # 保存和 mac 系统相关的操作文档
 
+## Mac 2k 屏幕，字体发飘问题
+- 使用 BetterDisplay
+  - 下载 https://github.com/waydabber/BetterDisplay
+  - 按照教程 https://github.com/waydabber/BetterDisplay/wiki/Fully-scalable-HiDPI-desktop#setting-up-native-smooth-scaling
+  - 3440 * 1920 带鱼屏，2K的， 强制开启 HiDPI
+  - 开启后发飘消失了，但是字体还是有点糊
+
 ## 检查软件是否支持 ARM 架构的网站
 - https://isapplesiliconready.com/
 
