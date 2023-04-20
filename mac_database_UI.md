@@ -8,6 +8,7 @@
 ## DataGrip
 - Jetbrain 公司旗下，和 Intellij/Pycharm 里面的数据库插件差不多，要钱
 - 要单独下再各种驱动
+- 可以使用 Copilot in DB 插件
 
 ## Sequel Ace
 - Mac AppStore 可以免费下载
