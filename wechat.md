@@ -104,6 +104,7 @@
   - https://github.com/ppwwyyxx/wechat-dump
 - 文档介绍 Android 文字+资源文件
   - https://blog.greycode.top/posts/android-wechat-bak/
+  - https://github.com/greycodee/wechat-backup  (配套代码)
 - 其他工具
   - 这个帖子里有较多付费工具的汇总
   - https://github.com/BlueMatthew/WechatExporter/issues/120
