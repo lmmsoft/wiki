@@ -102,6 +102,8 @@
 - 开源工具 Android
   - 安卓数据是加密的，以前需要用IMEI解密，现在秘钥固定
   - https://github.com/ppwwyyxx/wechat-dump
+- 文档介绍 Android 文字+资源文件
+  - https://blog.greycode.top/posts/android-wechat-bak/
 - 其他工具
   - 这个帖子里有较多付费工具的汇总
   - https://github.com/BlueMatthew/WechatExporter/issues/120
