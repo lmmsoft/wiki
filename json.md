@@ -1,8 +1,19 @@
 # json 文件操作相关的问题，库
 
+## Python
+```python
+import json
+
+json.dumps(d, 
+   sort_keys=True, # 排序 
+   ensure_ascii=False,  # 显示 unicode,  如果是 True, 那么就强制使用 ascii， 汉字会被编码成 \uXXX 的格式
+   indent=2, # 带换行，2个空格
+)
+```
+
 ## Java
 
-## fastjson
+### fastjson
 - 格式化，保存时排序
 - SerializerFeature.PrettyFormat 这个是可读，带换行，4个空格 （否则不带换行）
 - SerializerFeature.SortField.MapSortField （这个可以排序所有的 kv），很多文档只给了 SerializerFeature.SortField，这个不管用
@@ -21,7 +32,7 @@ private static void prettyWriteJsonObjectToFile(String path, JSONObject jsonObje
   }
 ```
 
-## Gson
+### Gson
 - 如果想格式完全和 python 对齐， fastjson 不太行， ： 前面会多个空格
 - 可以用 Gson, 默认格式是2空格，其他格式和 python 一样
 
