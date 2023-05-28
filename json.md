@@ -40,7 +40,10 @@ private static void prettyWriteJsonObjectToFile(String path, JSONObject jsonObje
 ```java
 private static String stringPrettyString(String json) { // 兼容 Object 和 Array
     JsonElement jsonElement = new JsonParser().parse(json);
-    Gson gson = new GsonBuilder().disableHtmlEscaping().setPrettyPrinting().create();
+    Gson gson = new GsonBuilder()
+                  .disableHtmlEscaping() // 为了显示 utf8 汉字，否则会编码成 \uXXX
+                  .setPrettyPrinting() // 优美格式，2个空格，否则不会换行
+                  .create();
     return gson.toJson(jsonElement);
 }
 
