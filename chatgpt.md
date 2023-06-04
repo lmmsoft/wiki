@@ -53,6 +53,7 @@
 - https://github.com/fffnower/chat_with_slack_claude2
 - 命令行 https://github.com/BlackPinkiller/Claude-Lite
 - https://github.com/lyleshaw/Claude-IN-Wechat
+- https://github.com/yokonsan/claude-in-slack-api
 
 
 ## poe相关项目
