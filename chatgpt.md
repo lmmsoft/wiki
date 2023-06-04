@@ -11,6 +11,8 @@
 - 买各种账号的网站
   - https://www.feijiji.com/#7
 
+## 视频
+- 吴恩达课程 https://www.bilibili.com/video/BV1AT41187qt/
 
 
 ## 保存 chatgpt 相关的机器人项目
