@@ -8,6 +8,8 @@
   - https://t.me/openai_sb_bot (查询余额)
   - https://t.me/openai_sb (通知发布)
   - https://www.openai-sb.com/guide/pricing.html
+- 买各种账号的网站
+  - https://www.feijiji.com/#7
 
 
 
@@ -34,7 +36,17 @@
   - star 30
   - dingding 
   - go
-  
+
+## Claude相关项目
+- https://github.com/fffnower/chat_with_slack_claude
+- https://github.com/fffnower/chat_with_slack_claude2
+- 命令行 https://github.com/BlackPinkiller/Claude-Lite
+- https://github.com/lyleshaw/Claude-IN-Wechat
+
+
+## poe相关项目
+- https://github.com/ading2210/poe-api
+- https://github.com/vaibhavk97/Poe 反向工程
   
 ### 其他项目
 - https://github.com/eatmoreapple/openwechat
