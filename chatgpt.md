@@ -10,6 +10,10 @@
   - https://www.openai-sb.com/guide/pricing.html
 - 买各种账号的网站
   - https://www.feijiji.com/#7
+- 短信接码
+  - (汇总) https://www.dailiservers.com/sms-code-platform-for-chatgpt/ https://iyideng.net/welfare/best-foreign-charging-access-platform.html
+  - (免费) https://receive-sms-free.cc/
+  - (用过) https://sms-activate.org/
 
 ## 提示词教程
 - 官方 https://help.openai.com/en/articles/6654000-best-practices-for-prompt-engineering-with-openai-api
