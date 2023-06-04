@@ -3,6 +3,7 @@
 ## 常用链接
 - 如何申请Plus (Deplay 虚拟信用卡) https://chatgpt-plus.github.io/
 - 镜像站点汇总 https://cc.ai55.cc/
+- 每天分享免费ChatGPT账号 https://freeopenai.xyz/
 - https://chat.openai-sb.com/zh
 - 低价API
   - https://t.me/openai_sb_bot (查询余额)
