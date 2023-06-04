@@ -2,6 +2,11 @@
 
 - 免费服务清单 https://azure.microsoft.com/zh-cn/free/
 
+- 如何白嫖微软Azure12个月及避坑指南 https://www.cnblogs.com/kklldog/p/azure-free-12m.html
+- Azure免费服务用量注意点集合，避免扣费暗坑 https://www.chz.one/2021/07/02/23-azurefree/
+- Windows Azure学生订阅额度完全使用(薅干)指南教程 https://51.ruyo.net/11319.html
+- Azure Student 微软云 学生订阅 免费12个月用量避坑注意点集合 https://www.shanyemangfu.com/azure-student-12.html
+
 ## 免费 vm 注意事项
 
 ## 免费 mongodb 注意事项
