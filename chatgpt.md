@@ -11,6 +11,10 @@
 - 买各种账号的网站
   - https://www.feijiji.com/#7
 
+## 提示词教程
+- 官方 https://help.openai.com/en/articles/6654000-best-practices-for-prompt-engineering-with-openai-api
+- https://github.com/openai/openai-cookbook/tree/main/examples
+
 ## 视频
 - 吴恩达课程 https://www.bilibili.com/video/BV1AT41187qt/
 
