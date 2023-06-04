@@ -1,6 +1,19 @@
-# 保存 chatgpt 相关的机器人项目
+# ChatGPT 相关链接汇总
 
-# 微信聊天项目
+## 常用链接
+- 如何申请Plus (Deplay 虚拟信用卡) https://chatgpt-plus.github.io/
+- 镜像站点汇总 https://cc.ai55.cc/
+- https://chat.openai-sb.com/zh
+- 低价API
+  - https://t.me/openai_sb_bot (查询余额)
+  - https://t.me/openai_sb (通知发布)
+  - https://www.openai-sb.com/guide/pricing.html
+
+
+
+## 保存 chatgpt 相关的机器人项目
+
+### 微信聊天项目
 - https://github.com/fuergaosi233/wechat-chatgpt
   - star 2900
   - wechat, 带账号池等
@@ -23,7 +36,7 @@
   - go
   
   
-# 其他项目
+### 其他项目
 - https://github.com/eatmoreapple/openwechat
   - golang 微信 SDK
   - star 720
@@ -33,7 +46,7 @@
   - ts
 
 
-# 相关文章
+## 相关文章
 - 量子位文章，介绍了3个项目
   - https://www.qbitai.com/2022/12/40293.html
 - 掘金文章
