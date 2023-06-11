@@ -1,20 +1,20 @@
 # 保存和 mac 系统相关的操作文档
 
-## Mac 2k 屏幕，字体发飘问题
+## 1. Mac 2k 屏幕，字体发飘问题
 - 使用 BetterDisplay
   - 下载 https://github.com/waydabber/BetterDisplay
   - 按照教程 https://github.com/waydabber/BetterDisplay/wiki/Fully-scalable-HiDPI-desktop#setting-up-native-smooth-scaling
   - 3440 * 1920 带鱼屏，2K的， 强制开启 HiDPI
   - 开启后发飘消失了，但是字体还是有点糊
 
-## 检查软件是否支持 ARM 架构的网站
+## 2. 检查软件是否支持 ARM 架构的网站
 - https://isapplesiliconready.com/
 
-## Mac双屏显示时，如何把dock固定在主屏幕？
+## 3. Mac双屏显示时，如何把dock固定在主屏幕？
 - https://www.zhihu.com/question/25277698
 - 鼠标放在需要固定的显示器底部两秒 (亲测好用，Ventura v13.3.1, 但这个功能设计得太脑残了，之前dock程序坞乱飘，应该就是这个原因，我左下角有锁屏触发角，导致dock总是飘到左边屏幕上  ) 
 
-## mac电脑访达finder如何按照照片的拍摄时间排序？
+## 4. mac电脑访达finder如何按照照片的拍摄时间排序？
 - my blog post link:  https://lmmsoft.github.io/mac_finder_sort_photos_by_taken_time/ 
 - 结论，不行，必须通过第三方软件
 - 推荐个免费的小工具：
@@ -22,7 +22,7 @@
   - 下载地址： https://www.qdev.de/download.php?file=ExifRenamer.dmg
 - 特性：可以自定义文件名格式，比如我是 [时间+原始文件名]，然后批量重命名
 
-## NTFS for Mac
+## 5. NTFS for Mac
 - 如果是新买的移动硬盘，建议直接格式化成 ExFAT 格式， Windows/Mac 都支持，可以在 Mac 机器上格 只读的 NTFS 盘，不需要重启电脑
   - 参考希捷的文档 https://www.seagate.com/cn/zh/support/kb/how-to-format-your-drive-exfat-on-macos-big-sur-and-later/ 
 - 如果是旧磁盘，不方便转换格式，就要安装软件了
@@ -35,3 +35,26 @@
   - 国产的 xx，SEO 做的很好，但是要付费
 - 各种 win/mac 磁盘格式优劣对比
   - https://www.seagate.com/cn/zh/support/kb/how-to-format-your-hard-drive-220151en/?language=zh-cn
+
+## 6. 删除文件之后，剩余空间没有增加的问题
+- 时间机器的问题，可以删除快照，系统也会根据空间自动删除快照
+  - 参考 https://zhuanlan.zhihu.com/p/106320280
+```
+输入：sudo tmutil listlocalsnapshots /
+输入密码+回车 (注意后面 / 要的，是查询目录)
+
+系统会列出文件的名称，主要是日期名，eg:
+
+Snapshots for disk /:
+com.apple.TimeMachine.2023-06-11-010732.local
+com.apple.TimeMachine.2023-06-11-020925.local
+com.apple.TimeMachine.2023-06-11-040319.local
+
+
+输入：tmutil deletelocalsnapshots 日期名
+把不需要的文件都删除后，就可以恢复可用空间了。
+
+eg:
+sudo tmutil deletelocalsnapshots 2023-06-11-010732
+Deleted local snapshot '2023-06-11-010732'
+```
