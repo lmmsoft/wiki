@@ -14,6 +14,7 @@
 # 官方文档
 - https://azure.microsoft.com/zh-cn/products/cognitive-services/openai-service
 - https://learn.microsoft.com/zh-cn/azure/cognitive-services/openai/
+- 价钱(和openai一样) https://azure.microsoft.com/zh-cn/pricing/details/cognitive-services/openai-service/
 
 
 # 三方文档
