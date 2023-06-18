@@ -68,7 +68,7 @@ COMMAND：进程启动命令名称
 ## 查看镜像每一层
 docker history xxx
 
-## 免sudo使用docker命令
+## 免sudo使用docker命令(1)
 - https://www.cnblogs.com/mafeng/p/8683914.html
 
 如果还没有 docker group 就添加一个：
@@ -84,6 +84,33 @@ docker history xxx
 >newgrp - docker
 
 注意:最后一步是必须的，否则因为 groups 命令获取到的是缓存的组信息，刚添加的组信息未能生效，所以 docker images 执行时同样有错。
+
+## 免sudo使用docker命令(2)
+- 有次 GCP 用上面的命令没成功， ```sudo service docker restart``` 报错找不到 docker，用了下面命令搞定
+
+1. Add your user to the docker group. This will allow your user to access the Docker daemon
+```bash
+sudo usermod -aG docker $USER
+```
+Then log out and log back in. This will pick up the new group permissions. You should then be able to run docker commands without sudo.
+2. Change the permissions of the Docker socket to allow all users access. This can be done with:
+```bash 
+sudo chmod 666 /var/run/docker.sock
+```
+However, this is not the most secure option as it allows any user to access the Docker daemon.
+3. Run docker commands with sudo. This will allow the command to access the Docker daemon with root privileges. For example:
+```bash 
+sudo docker run hello-world
+```
+4. Create a Unix group called docker and add users to it. Then change the socket permissions to g+rw. For example:
+```bash
+sudo groupadd docker 
+sudo usermod -aG docker $USER 
+sudo chown root:docker /var/run/docker.sock 
+sudo chmod g+rw /var/run/docker.sock
+```
+This is a good option as it gives the docker group permissions to access the socket, rather than all users.
+
 
 ## ubuntu 设置默认密码问题
 - 上面也会需要输入密码，或者进入root，都需要有密码
