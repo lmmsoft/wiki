@@ -64,4 +64,5 @@ CloudCanal 的工作原理是:
 ```
 ## MySQL 数据迁移，导入导出教程
 - workbench 和 mysqldump 都有
-- https://learn.microsoft.com/zh-cn/azure/mysql/migrate/how-to-decide-on-right-migration-tools
+  - https://learn.microsoft.com/zh-cn/azure/mysql/migrate/how-to-decide-on-right-migration-tools
+- https://learn.microsoft.com/zh-cn/azure/mysql/single-server/concepts-migrate-dump-restore
