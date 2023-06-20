@@ -62,3 +62,6 @@ CloudCanal 的工作原理是:
 所以,CloudCanal 的主要应用场景是实现 MySQL 数据的实时同步到其他异构系统中,常用于构建数据库异构迁移、数据库复制、业务 Cache 刷新的解决方案。
 总体来说,CloudCanal 是一个相对成熟和易用的 Canal 企业级封装,值得在项目中应用。
 ```
+## MySQL 数据迁移，导入导出教程
+- workbench 和 mysqldump 都有
+- https://learn.microsoft.com/zh-cn/azure/mysql/migrate/how-to-decide-on-right-migration-tools
