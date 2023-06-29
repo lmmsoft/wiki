@@ -1,5 +1,9 @@
 # 存放一些我觉得比较好的prompt
 
+## 50 Chat GPT Prompts Every Software Developer Should Know (Tested)
+- https://blog.hackertab.dev/50-chat-gpt-prompts-every-software-developer-should-know-tested
+- 试了一下，这些prompt在 ChatGPT 里效果很好，Claude里效果差很多
+
 ## 速度收藏，最全ChatGPT中文提示词库
 - http://xiaogongchang.cn/chatgpt/134.html
 ```
