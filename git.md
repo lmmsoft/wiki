@@ -21,7 +21,7 @@ quotepath = false
 
 # 清理本地分支
 清理本地 tracking branches not on the remote
-> git remote prune origin prunes 
+> git remote prune origin 
 
 # 删除远程分支
 > git push origin :branch-name
