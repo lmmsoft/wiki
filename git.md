@@ -100,3 +100,11 @@ v1.9.0-4-gcc450c1de
 # gcc450c1de ：开头 g 为git的缩写，在多种管理工具并存的环境中很有用处
 # cc450c1de ： 当前分支最新的commitID前几位
 ```
+
+## 拉取 某个远程 repo 的分支问题
+```
+有 origin remote 两个远程分支
+git fetch remote br
+git pull remote br
+git rebase remote br
+```
