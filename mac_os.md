@@ -72,3 +72,6 @@ Deleted local snapshot '2023-06-11-010732'
 执行open Library,然后调整目录展示位列表展示，再摁下command +J，
 在弹出的对话框里，选择计算所有大小。然后找到特别大的没啥样的，就删除掉。
 ![image](https://github.com/lmmsoft/wiki/assets/1109198/8a3573d4-57e7-423f-b369-cb18bf9ea43f)
+
+## 8. 黑苹果
+- https://hackintosh.com/
