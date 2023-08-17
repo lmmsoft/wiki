@@ -45,3 +45,8 @@
 
 # 4. 订阅源聚合
 - web3订阅源聚合，推荐用 netnewswire  https://github.com/chainfeeds/RSSAggregatorforWeb3
+
+# rsshub
+- 官方文档：https://docs.rsshub.app/
+- 镜像站点：https://rsshub.rssforever.com/
+- selfhost: https://lmm333rsshub.zeabur.app/
