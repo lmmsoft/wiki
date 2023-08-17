@@ -49,4 +49,4 @@
 # rsshub
 - 官方文档：https://docs.rsshub.app/
 - 镜像站点：https://rsshub.rssforever.com/
-- selfhost: https://lmm333rsshub.zeabur.app/
+- selfhost: https://lmm333rsshub.zeabur.app/ (免费版需要7天延长一次，不太方便 https://dash.zeabur.com/)
