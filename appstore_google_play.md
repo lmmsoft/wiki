@@ -10,6 +10,7 @@
 ### App 审核
 - https://developer.apple.com/cn/app-store/review/
 
-
+### 人机界面指南
+- https://developer.apple.com/cn/design/human-interface-guidelines/
 
 ## Google Play
