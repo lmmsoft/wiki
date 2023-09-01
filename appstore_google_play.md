@@ -10,6 +10,13 @@
 ### App 审核
 - https://developer.apple.com/cn/app-store/review/
 
+### ScreenShot 应用截图相关API
+- List All App Screenshot Sets for an App Store Version Localization （截图） https://developer.apple.com/documentation/appstoreconnectapi/list_all_app_screenshot_sets_for_an_app_store_version_localization
+- List All App Preview Sets for an App Store Version Localization （短视频） https://developer.apple.com/documentation/appstoreconnectapi/list_all_app_preview_sets_for_an_app_store_version_localization
+
+- 截图相关：Create sets of app screenshots to upload to App Store Connect.
+- https://developer.apple.com/documentation/appstoreconnectapi/app_store/app_metadata/app_screenshot_sets
+
 ### 人机界面指南
 - https://developer.apple.com/cn/design/human-interface-guidelines/
 
