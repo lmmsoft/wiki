@@ -26,6 +26,7 @@ Swift API，有 openapi生成，相邻的文档都值得一看
 
 - https://github.com/AvdLee/appstoreconnect-swift-sdk/blob/master/Sources/OpenAPI/Generated/Entities/AppScreenshot.swift
 - https://github.com/AvdLee/appstoreconnect-swift-sdk/blob/master/Sources/OpenAPI/Generated/Entities/AppScreenshotSetAppScreenshotsLinkagesResponse.swift
+- https://github.com/AvdLee/appstoreconnect-swift-sdk/blob/master/Sources/OpenAPI/Generated/Entities/ScreenshotDisplayType.swift
 
 截图 图片格式要求： 
 - https://developer.apple.com/help/app-store-connect/reference/screenshot-specifications
