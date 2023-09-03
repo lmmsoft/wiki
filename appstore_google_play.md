@@ -28,6 +28,9 @@ Swift API，有 openapi生成，相邻的文档都值得一看
 - https://github.com/AvdLee/appstoreconnect-swift-sdk/blob/master/Sources/OpenAPI/Generated/Entities/AppScreenshotSetAppScreenshotsLinkagesResponse.swift
 - https://github.com/AvdLee/appstoreconnect-swift-sdk/blob/master/Sources/OpenAPI/Generated/Entities/ScreenshotDisplayType.swift
 
+Fastline
+- 上传图片相关代码参考ruby https://github.com/fastlane/fastlane/blob/ab9fb3249adaddf6c05655891b4d280415dfc84e/deliver/lib/deliver/upload_screenshots.rb
+
 截图 图片格式要求： 
 - https://developer.apple.com/help/app-store-connect/reference/screenshot-specifications
 
