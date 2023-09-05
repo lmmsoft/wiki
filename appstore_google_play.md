@@ -33,6 +33,10 @@ Fastline
 - GooglePlay 上传图片的文档： https://docs.fastlane.tools/getting-started/android/screenshots/#upload-screenshots-to-google-play 参考命令 ```fastlane supply```
 - 上传图片相关代码参考ruby https://github.com/fastlane/fastlane/blob/ab9fb3249adaddf6c05655891b4d280415dfc84e/deliver/lib/deliver/upload_screenshots.rb
 
+- 上传到 AppStore
+  - 文档 https://docs.fastlane.tools/actions/upload_to_app_store/
+  - 源码 https://github.com/fastlane/fastlane/blob/master/fastlane/lib/fastlane/actions/upload_to_app_store.rb
+
 截图 图片格式要求： 
 - https://developer.apple.com/help/app-store-connect/reference/screenshot-specifications
 
