@@ -48,3 +48,4 @@ Swift API，有 openapi生成，相邻的文档都值得一看
 - https://developer.apple.com/cn/design/human-interface-guidelines/
 
 ## Google Play
+- 上传图片 https://developers.google.com/android-publisher/api-ref/rest/v3/edits.images/upload?hl=zh-cn
