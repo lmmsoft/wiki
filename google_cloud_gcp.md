@@ -18,3 +18,8 @@
 ## 其他
 - 90 天到期后，用小号再注册谷歌，并绑定到大号上面，可以让大号的资源（比如虚拟机），继续使用小号的 $300 结算。也就是 大号的服务，每个小号续命 3 个月。
   - https://uzbox.com/usa/googlecloud.html
+
+## ChanageLog
+- 2023-09-06 免费体验结束前2天，升级到完整账号
+![image](https://github.com/lmmsoft/wiki/assets/1109198/12dc71ed-6890-4ec4-875a-069f99a1ae3f)
+- 需要删除所有不需要的服务
