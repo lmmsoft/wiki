@@ -11,6 +11,10 @@
 - 所有账号都享受的免费层级，和赠金无关
   - https://cloud.google.com/free/docs/free-cloud-features?hl=zh_CN#free-tier
 
+## 谷歌地图
+- 结算方式 （没看太懂）
+    - https://developers.google.com/maps/billing/gmp-billing?hl=zh-cn#billing-overview 
+
 ## 其他
 - 90 天到期后，用小号再注册谷歌，并绑定到大号上面，可以让大号的资源（比如虚拟机），继续使用小号的 $300 结算。也就是 大号的服务，每个小号续命 3 个月。
   - https://uzbox.com/usa/googlecloud.html
