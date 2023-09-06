@@ -23,3 +23,5 @@
 - 2023-09-06 免费体验结束前2天，升级到完整账号
 ![image](https://github.com/lmmsoft/wiki/assets/1109198/12dc71ed-6890-4ec4-875a-069f99a1ae3f)
 - 需要删除所有不需要的服务
+  - 删了 vetex AI 部署的 stable diffusion 模型
+  - 删了 VM 一台
