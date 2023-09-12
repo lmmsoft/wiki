@@ -13,6 +13,7 @@
 ### ScreenShot 应用截图相关API
 
 官方文档：
+- 什么是app预览: https://developer.apple.com/app-store/app-previews/
 
 - List All App Screenshot Sets for an App Store Version Localization （截图） https://developer.apple.com/documentation/appstoreconnectapi/list_all_app_screenshot_sets_for_an_app_store_version_localization
 - List All App Preview Sets for an App Store Version Localization （短视频） https://developer.apple.com/documentation/appstoreconnectapi/list_all_app_preview_sets_for_an_app_store_version_localization
