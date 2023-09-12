@@ -11,6 +11,9 @@
 - https://developer.apple.com/cn/app-store/review/
 
 ### ScreenShot 应用截图相关API
+上传的格式可以用2种：
+- 图片叫做 app screenshot
+- 视频叫做 app preview
 
 官方文档：
 - 什么是app预览: https://developer.apple.com/app-store/app-previews/
