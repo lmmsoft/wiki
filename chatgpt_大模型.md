@@ -69,6 +69,17 @@
   - star 2400
   - ts
 
+## 大模型排名
+- SuperCLUE 榜单
+  - 排名 https://www.cluebenchmarks.com/superclue.html
+  - 开源 https://github.com/CLUEbenchmark/CLUE
+  - https://www.superclueai.com/
+ 
+## 国产大模型（基本免费）
+- 智谱清言（可以文本，可以pdf，国产模型里比较强了，免费）
+  - https://chatglm.cn/main/detail
+- 通义千问
+  - 通义听悟 https://tingwu.aliyun.com/
 
 ## 相关文章
 - 量子位文章，介绍了3个项目
