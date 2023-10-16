@@ -55,3 +55,4 @@ Swift API，有 openapi生成，相邻的文档都值得一看
 - 上传应用 https://developers.google.com/android-publisher?hl=zh-cn#publishing
 - 上传图片 https://developers.google.com/android-publisher/api-ref/rest/v3/edits.images/upload?hl=zh-cn
 - 上传文件API + SDK: https://developers.google.com/android-publisher/upload?hl=zh-cn#exp-backoff
+- RestAPI列表 https://developers.google.com/android-publisher/api-ref/rest?hl=zh-cn#rest-resource:-v3.edits.images
