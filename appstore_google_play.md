@@ -56,3 +56,12 @@ Swift API，有 openapi生成，相邻的文档都值得一看
 - 上传图片 https://developers.google.com/android-publisher/api-ref/rest/v3/edits.images/upload?hl=zh-cn
 - 上传文件API + SDK: https://developers.google.com/android-publisher/upload?hl=zh-cn#exp-backoff
 - RestAPI列表 https://developers.google.com/android-publisher/api-ref/rest?hl=zh-cn#rest-resource:-v3.edits.images
+
+- JWT用法 https://developers.google.com/identity/protocols/oauth2/service-account?hl=zh-cn#jwt-auth
+- 上传文件 https://developers.google.com/android-publisher/upload?hl=zh-cn
+- 上传应用的参考代码，使用SDK https://github.com/googlesamples/android-play-publisher-api/tree/master/v3/java/src/com/google/play/developerapi/samples
+- 上传代码SDK+非SDK
+  - https://developers.google.com/api-client-library/java/google-api-java-client/media-upload?hl=zh-cn
+  - https://developers.google.com/api-client-library/java/google-api-java-client/media-upload?hl=en
+
+  - temu in Google Play: https://play.google.com/store/apps/details?id=com.einnovation.temu&hl=zh-cn&gl=cn
