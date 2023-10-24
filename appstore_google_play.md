@@ -65,3 +65,10 @@ Swift API，有 openapi生成，相邻的文档都值得一看
   - https://developers.google.com/api-client-library/java/google-api-java-client/media-upload?hl=en
 
   - temu in Google Play: https://play.google.com/store/apps/details?id=com.einnovation.temu&hl=zh-cn&gl=cn
+
+## 多语言 Localization
+- 第三方网站找到了iOS/AppStore/GooglePlay的语言代码列表，非常好用
+  - https://www.ibabbleon.com/iOS-Language-Codes-ISO-639.html
+  - https://www.ibabbleon.com/Google-Play-Store-Language-Codes.html
+- 苹果官方的语言列表 https://developer.apple.com/help/app-store-connect/reference/app-store-localizations/
+- 第三方苹果语言列表，带国旗emoji https://appfollow.io/app-store-keywords-localizations
