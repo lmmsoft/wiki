@@ -1,5 +1,36 @@
 # gitbub 相关的问题
 
+# github push 特别慢，网络问题，怎么走代理？
+如果你自己有一些ss工具的话，可直接让git走代理
+```
+git config --global http.proxy socks5://127.0.0.1:1080
+git config --global https.proxy socks5://127.0.0.1:1080
+或者
+git config --local https.proxy socks5://127.0.0.1:1080
+git config --local http.proxy socks5://127.0.0.1:1080 
+
+```
+
+检查配置是否生效：
+```
+git config --global --get http.proxy
+git config --global --get https.proxy
+
+git config --local --get http.proxy
+git config --local --get https.proxy
+```
+如果想取消使用代理，可以输入以下命令：
+```
+git config --global --unset http.proxy
+git config --global --unset https.proxy
+
+git config --local --unset http.proxy
+git config --local --unset https.proxy
+```
+
+改host的方法，参考 https://blog.csdn.net/Hydra_xyc/article/details/90554067
+
+
 # github 流程图，架构图方案
 ## mermaid
 - 项目代码 https://github.com/mermaid-js/mermaid
