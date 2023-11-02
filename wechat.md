@@ -62,7 +62,7 @@
 - https://github.com/talkgo/night/issues/137
 - https://www.appinn.com/efb-tutorial-with-docker/
 
-## Part6: 登陆网页版微信
+# Part6: 登陆网页版微信
 - 之前扫码网页登陆，总是提示：
 ```
 <error>
@@ -85,7 +85,7 @@
 
 参考Chrome(辅助登陆网页版微信) https://github.com/adamyi/wechrome
 
-## Part7: 导出微信聊天记录
+# Part7: 导出微信聊天记录
 - 楼月工具
   - 从安卓中导出，需要 root 手机，感觉是 hack 了手机里的数据，有点危险
   - http://www.winwin7.com/soft/20482.html
@@ -110,3 +110,14 @@
   - https://github.com/BlueMatthew/WechatExporter/issues/120
 - 知乎汇总贴，免费的，付费的，很全
   - https://zhuanlan.zhihu.com/p/212901830
+ 
+# Part8: 微信公众号文章同步到其他平台
+- 微信公众号同步助手（开源，免费，亲测好用）
+  - https://github.com/wechatsync/Wechatsync/tree/master
+  - https://chrome.google.com/webstore/detail/%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7%E5%90%8C%E6%AD%A5%E5%8A%A9%E6%89%8B/hchobocdmclopcbnibdnoafilagadion
+- 蚁小儿 desktop app
+  - https://www.yixiaoer.cn/new/oneKey
+- 微小宝
+  - https://www.wxb.com/
+- 融媒宝
+  - https://www.rmeibao.com/
