@@ -113,6 +113,7 @@
  
 # Part8: 微信公众号文章同步到其他平台
 - 微信公众号同步助手（开源，免费，亲测好用）
+  - https://www.wechatsync.com/
   - https://github.com/wechatsync/Wechatsync/tree/master
   - https://chrome.google.com/webstore/detail/%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7%E5%90%8C%E6%AD%A5%E5%8A%A9%E6%89%8B/hchobocdmclopcbnibdnoafilagadion
 - 蚁小儿 desktop app
