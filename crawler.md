@@ -1,9 +1,10 @@
 # 抓取信息相关内容
 
 ## mercury-parser-api
-
+- 源码 https://github.com/postlight/parser-api
+- 介绍页 https://reader.postlight.com/
 - 包装成的容器: https://github.com/HenryQW/mercury-parser-api
-
+- AWS Lambda-based API
 ```
 curl localhost:3000/parser?url=https://www.bbc.co.uk/news/science-environment-35876621
 
