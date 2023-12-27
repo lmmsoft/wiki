@@ -47,3 +47,31 @@ http://xxx:3000/parser?url=%20http://www.baidu.com/
 "rendered_pages": 1
 }
 ```
+
+```
+curl 0.0.0.0:3000
+
+{"message":"Welcome to 🚀mercury-parser-api API! Endpoint: /parser"}
+```
+
+抓公众号效果很好，还能刚拿到复杂的文章链接。配合 html_to_md 工具，转成的 markdown 也是很好的， 比如 https://codebeautify.org/html-to-markdown
+```
+http://xxx:3000/parser?url=https://mp.weixin.qq.com/s/yK5iW21wBpWRu5sWfgFycA
+
+{
+"title": "换行与跨界",
+"author": null,
+"date_published": null,
+"dek": null,
+"lead_image_url": "https://mmbiz.qpic.cn/mmbiz_jpg/FvfOcicboXakUxc4chSYQ7VDjQgddmhrJQ0x2ibLl2U5n7c4foaB7hI51gicw8p4E1OvjVbiaA3C2oYK7DnSXek8pQ/0?wx_fmt=jpeg",
+"content": "<div id=\"img-content\" class=\"rich_media_wrp\">xxxx .. xxxx</div>",
+"next_page_url": null,
+"url": "http://mp.weixin.qq.com/s?__biz=MzU3MjYzNTkyMQ==&mid=2247484837&idx=1&sn=29dba676e706e865edc4b8851b819b2f&chksm=fcccabdbcbbb22cd5248b8818b87b7d687bda72eb5456c461136f8871bf37bdbbba3c4a9217e#rd",
+"domain": "mp.weixin.qq.com",
+"excerpt": "主动布局，文理兼修，是换行与跨界的关键要素",
+"word_count": 32,
+"direction": "ltr",
+"total_pages": 1,
+"rendered_pages": 1
+}
+```
