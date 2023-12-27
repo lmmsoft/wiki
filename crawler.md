@@ -26,3 +26,24 @@ Response
     "rendered_pages": 1
 }
 ```
+
+```
+http://xxx:3000/parser?url=%20http://www.baidu.com/
+
+{
+"title": "百度一下，你就知道",
+"author": null,
+"date_published": null,
+"dek": null,
+"lead_image_url": null,
+"content": "<div id=\"s-user-setting-menu\" class=\"s-top-userset-menu c-floating-box c-font-normal \"><a class=\"s-set-hotsearch set-hide\" href=\"javascript:;\">&#x5173;&#x95ED;&#x70ED;&#x641C;</a><a class=\"s-set-hotsearch set-show\" href=\"javascript:;\">&#x5F00;&#x542F;&#x70ED;&#x641C;</a></div>",
+"next_page_url": null,
+"url": " http://www.baidu.com/",
+"domain": "www.baidu.com",
+"excerpt": "关闭热搜开启热搜",
+"word_count": 2,
+"direction": "ltr",
+"total_pages": 1,
+"rendered_pages": 1
+}
+```
