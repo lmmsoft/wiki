@@ -2,6 +2,8 @@
 
 ## 时区
 ```
+For: FROM python:3.8.1-buster
+
 # Add crontab file in the cron directory
 ADD crontabfile /etc/cron.d/watcher-cron
 
@@ -12,6 +14,33 @@ RUN apt-get update \
     && apt-get -y install cron openssl \
     && cp /usr/share/zoneinfo/Asia/Shanghai /etc/localtime \
     && echo 'Asia/Shanghai' >/etc/timezone
+```
+
+```
+for FROM python:3-alpine
+
+RUN sed -i "s|dl-cdn.alpinelinux.org|mirrors.tuna.tsinghua.edu.cn|g" /etc/apk/repositories && \
+    apk add -U tzdata make && \
+    cp /usr/share/zoneinfo/Asia/Shanghai /etc/localtime && echo "Asia/Shanghai" > /etc/timezone && \
+    apk add -U -t xxbuild gcc musl-dev g++ libffi-dev openssl-dev && \
+    pip install -r /requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple && \
+    apk del xxbuild && \
+    rm -rf /var/cache/apk/*
+```
+
+```
+For: FROM python:3.12
+
+# Set the timezone to Shanghai
+ENV TZ=Asia/Shanghai
+
+# Use the system's package manager to install tzdata package
+RUN apt-get update && apt-get install -y --no-install-recommends tzdata && \
+    ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && \
+    echo $TZ > /etc/timezone
+
+# Copy the Python requirements file into the container at /app
+COPY requirements.txt /app/
 ```
 
 ## RUN 命令
