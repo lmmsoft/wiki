@@ -1,5 +1,20 @@
 # 本文存放 dockerfile 相关的实践
 
+## 时区
+```
+# Add crontab file in the cron directory
+ADD crontabfile /etc/cron.d/watcher-cron
+
+# Give execution rights on the cron job
+# Create the log file to be able to run tail
+
+RUN apt-get update \
+    && apt-get -y install cron openssl \
+    && cp /usr/share/zoneinfo/Asia/Shanghai /etc/localtime \
+    && echo 'Asia/Shanghai' >/etc/timezone
+```
+
+## RUN 命令
 - 在同一个RUN中 yum install 命令之后加上 yum clean all
 ```
 RUN yum install -y git \
