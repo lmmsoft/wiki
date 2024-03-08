@@ -26,6 +26,10 @@ RUN sed -i "s|dl-cdn.alpinelinux.org|mirrors.tuna.tsinghua.edu.cn|g" /etc/apk/re
     pip install -r /requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple && \
     apk del xxbuild && \
     rm -rf /var/cache/apk/*
+
+RUN apk add -U tzdata && \
+    cp /usr/share/zoneinfo/Asia/Shanghai /etc/localtime && \
+    echo "Asia/Shanghai" > /etc/timezone
 ```
 
 ```
