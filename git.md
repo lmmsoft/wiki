@@ -1,7 +1,28 @@
 # 本文档记录 git 相关的常见操作命令
 
+## Semantic Commit Messages(提交信息怎么写)
+- https://gist.github.com/joshbuchea/6f47e86d2510bce28f8e7f42ae84c716
 
-# 解决 git status 显示中文文件名为乱码
+```
+feat: add hat wobble
+^--^  ^------------^
+|     |
+|     +-> Summary in present tense.
+|
++-------> Type: chore, docs, feat, fix, refactor, style, or test.
+```
+
+More Examples:
+
+- `feat`: (new feature for the user, not a new feature for build script)
+- `fix`: (bug fix for the user, not a fix to a build script)
+- `docs`: (changes to the documentation)
+- `style`: (formatting, missing semi colons, etc; no production code change)
+- `refactor`: (refactoring production code, eg. renaming a variable)
+- `test`: (adding missing tests, refactoring tests; no production code change)
+- `chore`: (updating grunt tasks etc; no production code change)
+
+## 解决 git status 显示中文文件名为乱码
 > git config --global core.quotepath false
 
 如果运行上述命令弹出提示： 
