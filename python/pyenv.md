@@ -3,6 +3,7 @@
 - 建议使用 brew install pyenv 安装
 - 定期更新，想安装python的话
 ```
+brew install pyenv
 brew upgrade pyenv
 ```
 
