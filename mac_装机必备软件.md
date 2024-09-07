@@ -14,5 +14,13 @@ https://rectangleapp.com/
 - https://shurufa.sogou.com/
 
 ## IDE
+- Xcode
 - VSCode
 - Cursor
+
+## 音乐
+- 网易云
+- QQ音乐
+
+## 安装软件
+- brew
