@@ -8,3 +8,11 @@ spectacle
 https://rectangleapp.com/
 - https://github.com/rxhanson/Rectangle
 - spectacle 推荐的替代品，有空尝试
+
+## 输入法
+- 搜狗
+- https://shurufa.sogou.com/
+
+## IDE
+- VSCode
+- Cursor
